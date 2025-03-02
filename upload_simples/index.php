@@ -7,7 +7,7 @@
 </head>
 <body>
     <h2>Formulário de Cadastro</h2>
-    <form action="up_simples.php" method="post" enctype="multipart/form-data">
+    <form action="up_simples_melhorado.php" method="post" enctype="multipart/form-data">
         
     <label for="nome">Nome:
         <input type="file" name="arquivo_up" id="">
