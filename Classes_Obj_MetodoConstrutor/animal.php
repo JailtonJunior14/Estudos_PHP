@@ -1,8 +1,8 @@
 <?php
 
-class Animal{
+abstract class Animal{
 
-    public $nome;
+    protected $nome;
     public $raca;
     public $cor;
 
@@ -27,6 +27,6 @@ class Animal{
     }
 
     public function come($_comida){
-        echo $this->nome . " está comendo: " . $_comida;
+        echo $this->nome . " está comendo: " . $_comida . "<br/>";
     }
 }
